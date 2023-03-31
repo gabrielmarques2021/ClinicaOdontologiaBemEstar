@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link{
+    color: white;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: rgb(139, 187, 254);
+}
+
+p{
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.envio{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.button{
+    padding: 9px 15px;
+    border-radius: 8px;
+    border: 0px;
+    display: flex;
+    margin: auto;
+}
+
+.button:hover{
+    scale: 1.1;
+    transition: 1;
+}
+
+.saiba{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.saiba:hover{
+    color: rgb(0, 14, 92);
+    font-weight: bold;
+    transition: 0.5s;
+    margin: auto;
+}
+
+.envio:hover{
+    color: rgb(0, 14, 92);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+
+.modal{
+    color: white;
+    font-weight: bold;
+}
+
+.modal-content{
+    border: green 3px solid;
+}
+
+.btn{
+    font-weight: bold;
+    color: white;
+}
+ 
+.btn:hover{
+    scale: 1.1;
+    color: rgb(0, 14, 92);
+    transition: 0.5s;
+}
